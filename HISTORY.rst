@@ -1,6 +1,11 @@
 History
 -------
 
+0.4.1 (2022-09-08, forked master)
+=================================
+
+* made the package deployable increased version number and blackified the files
+
 0.4.0 (forked master)
 =====================
 
