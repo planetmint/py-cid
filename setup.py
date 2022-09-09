@@ -16,7 +16,7 @@ requirements = [
     "py-multibase",
     "py-multicodec",
     "morphys",
-    "py-multihash",
+    "planetmint-multiformat-multihash",
 ]
 
 setup_requirements = [
@@ -30,13 +30,13 @@ test_requirements = [
 ]
 
 setup(
-    name="py-cid",
-    version="0.4.1",
+    name="planetmint-py-cid",
+    version="0.4.2",
     description="Self-describing content-addressed identifiers for distributed systems",
     long_description=readme + "\n\n" + history,
     author="Dhruv Baldawa",
-    author_email="dhruv@dhruvb.com",
-    url="https://github.com/ipld/py-cid",
+    author_email="mail@planetmint.io",
+    url="https://github.com/planetmint/py-cid",
     packages=find_packages(include=["cid"]),
     include_package_data=True,
     install_requires=requirements,
